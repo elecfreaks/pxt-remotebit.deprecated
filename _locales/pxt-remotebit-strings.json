@@ -1,0 +1,15 @@
+{
+  "ReceivedComponent.Button|block": "Button",
+  "ReceivedComponent.Joystick|block": "Joystick",
+  "SendComponent.Distance|block": "Distance",
+  "SendComponent.Speed|block": "Speed",
+  "remotebit.isConnected|block": "remotebit is connected",
+  "remotebit.onReceivedBuffer|block": "on remotebit|received %component %id",
+  "remotebit.onReceivedValues|block": "on remotebit|received %component %id",
+  "remotebit.sendBufferFromArray|block": "remotebit|send %component %id |buffer from %bytes",
+  "remotebit.sendValues|block": "remotebit|send %component %id |values %values",
+  "remotebit.setTransmitPower|block": "remotebit|set transmit power %power",
+  "remotebit.start|block": "remotebit start",
+  "remotebit|block": "remotebit",
+  "{id:category}Remotebit": "Remotebit"
+}

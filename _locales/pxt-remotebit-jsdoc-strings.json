@@ -1,0 +1,14 @@
+{
+  "ComponentID": "Component ID.",
+  "ReceivedComponent": "Received component enum.",
+  "SendComponent": "Send component enum.",
+  "remotebit": "Supports for remote:bit service.",
+  "remotebit.isConnected": "Returns true if the remote:bit is connected.",
+  "remotebit.onReceivedBuffer": "On remote:bit received buffer from a component.",
+  "remotebit.onReceivedValues": "On remote:bit received values from a component.",
+  "remotebit.sendBufferFromArray": "Sends buffer(from an array) to remote:bit component.",
+  "remotebit.sendValues": "Sends value(s) to remote:bit component. Each value occupies 2 bytes, which is 0 to 65535.",
+  "remotebit.setTransmitPower": "Sets the bluetooth transmit power between 0 (minimal) and 7 (maximum).",
+  "remotebit.setTransmitPower|param|power": "power level between 0 (minimal) and 7 (maximum), eg: 7.",
+  "remotebit.start": "Starts remote:bit."
+}

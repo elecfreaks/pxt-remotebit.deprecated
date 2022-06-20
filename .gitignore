@@ -1,0 +1,21 @@
+# MakeCode
+built
+node_modules
+yotta_modules
+yotta_targets
+pxt_modules
+_site
+*.db
+*.tgz
+.header.json
+.simstate.json
+
+# OS
+.DS_Store
+
+# VSCode
+*.log
+
+# node
+package.json
+package-lock.json

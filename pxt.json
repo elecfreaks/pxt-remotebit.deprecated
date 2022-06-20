@@ -1,0 +1,53 @@
+{
+    "name": "pxt-remotebit",
+    "version": "1.0.0",
+    "description": "MakeCode extension for the remote:bit app.",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "shims.d.ts",
+        "enums.d.ts",
+        "remotebit.cpp",
+        "remotebit.ts",
+        "RemoteBitService.h",
+        "RemoteBitService.cpp"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "4.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 1,
+                    "open": 1,
+                    "pairing_mode": 0,
+                    "private_addressing": 0,
+                    "whitelist": 0,
+                    "advertising_timeout": 0,
+                    "dfu_service": 0,
+                    "event_service": 0,
+                    "device_info_service": 0,
+                    "security_level": "SECURITY_MODE_ENCRYPTION_NO_MITM"
+                }
+            }
+        },
+        "optionalConfig": {
+            "microbit-dal": {
+                "stack_size": 1280,
+                "gatt_table_size": "0x300"
+            }
+        }
+    }
+}
